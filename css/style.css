@@ -404,7 +404,7 @@ blockquote {
 
 .mt_heading,
 .mt_heading_white {
-  margin-bottom: 80px; }
+  margin-bottom: 70px; }
   @media only screen and (max-width: 767px) {
     .mt_heading,
     .mt_heading_white {
@@ -848,7 +848,7 @@ input[type="submit"] {
   position: relative;
   height: 700px;
   width: 100%;
-  background-image: url('../images/backgroundblur.jpg');
+  background-image: url('../images/surgery1.jpg');
 
   
   /* background: #2371ae; */
@@ -985,6 +985,24 @@ input[type="submit"] {
           /* margin-left: 35px;  */
 
         } }
+
+        /* .banner_caption_img {
+          width: 40%;
+          margin-top: 50px;
+        margin-right: 45px; 
+      }
+          @media only screen and (max-width: 991px) {
+            .banner_caption_img {
+              margin-bottom: 55px;
+              margin-top: 15px; } }
+          .banner_caption_img img {
+            width: 100%; }
+            @media only screen and (max-width: 480px) {
+              .banner_caption_img img {
+                width: 100%; 
+                margin-left: 35px;  
+      
+              } } */
 
 /* ========================== */
 /*         End Banner         */
