@@ -674,7 +674,7 @@ input[type="submit"] {
     color: #444444; }
     @media only screen and (max-width: 767px) {
       #rt_header nav #navigation .navbar.navbar-default.reveal-menu-home.sticky-nav .navbar-collapse ul.nav.navbar-nav li a {
-        color: #FFFFFF; } }
+        color: #444444; } }
   #rt_header nav #navigation .navbar.navbar-default.reveal-menu-home.sticky-nav .logo {
     position: relative;
     float: left; }
@@ -848,7 +848,7 @@ input[type="submit"] {
   position: relative;
   height: 700px;
   width: 100%;
-  background-image: url('../images/surgery1.jpg');
+  background-image: url('../images/background.png');
 
   
   /* background: #2371ae; */
@@ -885,7 +885,7 @@ input[type="submit"] {
 
         margin-top: 220px; } }
     #rt_banner .banner_caption_text h1 {
-      color: #ffffff;
+      color: purple;
       /* font-family: WonderUnitSans-Extrabold; */
       font-size: 54px;
       line-height: 70px;
@@ -902,7 +902,7 @@ input[type="submit"] {
         #rt_banner .banner_caption_text h1 {
           font-size: 26px; } }
     #rt_banner .banner_caption_text p {
-      color: #FFFFFF;
+      color: purple;
       font-family: 'Open Sans', sans-serif;
       font-weight: 400;
       font-size: 16px;

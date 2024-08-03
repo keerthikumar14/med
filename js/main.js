@@ -228,7 +228,7 @@ jQuery(document).ready(function () {
 
     /*======== Team Section =========*/
     $("#rt_team .owl-carousel").owlCarousel({
-        loop: true,
+        loop: false,
         autoplay: true,
         autoplayHoverPause: true,
         autoplaySpeed: 1000,
