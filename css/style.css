@@ -846,7 +846,7 @@ input[type="submit"] {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  height: 700px;
+  height: 800px;
   width: 100%;
   background-image: url('../images/background.png');
 
@@ -1238,7 +1238,7 @@ input[type="submit"] {
 /*        Services        */
 /* ====================== */
 #rt_services {
-  padding: 100px 0 120px 0;
+  padding: 40px 0 100px 0;
   background: #fff; }
   #rt_services .box {
     padding: 40px 30px;
@@ -1345,7 +1345,7 @@ input[type="submit"] {
 /*           Features Section         */
 /* ================================== */
 #rt_features {
-  padding: 120px 0;
+  padding: 100px 0;
   overflow: hidden;
   /* =========== Left Colum =========== */
   /* =========== Mobile Mockup =========== */

@@ -7,7 +7,6 @@
     *===========================-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Pixaar is Creative App Landing Page & Product Showcase Landing Page">
 
     <!--=========================*
               Page Title
@@ -90,6 +89,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
         *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
         .clearfix:before, .clearfix:after { display: table; content: ''; }
@@ -270,12 +270,14 @@
         }
 
         .popup-content {
+            font-family: "Roboto", sans-serif;
+  font-weight: 400;
             background-color: #fff;
             padding: 20px;
             border: 1px solid #ccc;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
             max-width: 600px;
-            max-height: 80vh;
+            max-height: 78vh;
             overflow-y: auto;
             width: 80%;
             border-radius: 10px;
@@ -283,7 +285,7 @@
 
         .popup-content form {
             display: grid;
-            grid-gap: 10px;
+            grid-gap: 7px;
         }
 
         .popup-content label {
@@ -501,15 +503,15 @@
                             </div> 
                             <div class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li class="active"><a href="index.html#top" style="color:black">Home</a></li>
-                                    <li><a href="index.html#rt_services" style="color:black">Services</a></li>
-                                    <li><a href="index.html#rt_features" style="color:black">product</a></li>
+                                    <li class="active"><a href="index.html#top" style="color:black; font-weight: bold;">Home</a></li>
+                                    <li><a href="index.html#rt_services" style="color:black; font-weight: bold;">Services</a></li>
+                                    <li><a href="index.html#rt_features" style="color:black; font-weight: bold;">product</a></li>
                                     <!-- <li><a href="index.html#rt_screenshots">Screenshots</a></li> -->
-                                    <li><a href="index.html#rt_team" style="color:black">Team</a></li>
-                                    <li><a href="index.html#rt_gallery" style="color:black">Gallery</a></li>
+                                    <li><a href="index.html#rt_team" style="color:black; font-weight: bold;">Team</a></li>
+                                    <li><a href="index.html#rt_gallery" style="color:black; font-weight: bold;">Gallery</a></li>
                                     <!-- <li><a href="index.html#rt_pricing">Pricing</a></li> -->
                                     <!-- <li><a href="index.html#rt_blog">Blog</a></li> -->
-                                    <li><a href="index.html#rt_contact" style="color:black">Contact Us</a></li>
+                                    <li><a href="index.html#rt_contact" style="color:black; font-weight: bold;">Contact Us</a></li>
                                     <!-- <li><a id="openPopup">Open Form</a></li> -->
                                 </ul>
                             </div>
@@ -837,6 +839,7 @@
             </div>
             <div class="caption">
                 <h3>Tharany</h3>
+                <p>Chairman</p>
                 <!-- <div class="social-links">
                     <a href="#"><i class="fab fa-facebook"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
@@ -851,6 +854,7 @@
             </div>
             <div class="caption">
                 <h3>Adesh</h3>
+                <p>Director</p>
                 <!-- <div class="social-links">
                     <a href="#"><i class="fab fa-facebook"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
@@ -865,6 +869,7 @@
             </div>
             <div class="caption">
                 <h3>Lokeshwaran</h3>
+                <p>Director</p>
                 <!-- <div class="social-links">
                     <a href="#"><i class="fab fa-facebook"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
@@ -1580,10 +1585,10 @@
             </div>
 
             <div id="checkboxContainer" class="hidden">
-                <div class="form-row">
+                
                     <input type="checkbox" id="checkbox" name="checkbox" onchange="handleCheckboxChange(this)">
                     <label for="checkbox">Show Text Area</label>
-                </div>
+                
             </div>
 
             <div id="textAreaContainer" class="hidden">
