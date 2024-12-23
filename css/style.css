@@ -649,6 +649,22 @@ input[type="submit"] {
 /* ====================== */
 /*         Header         */
 /* ====================== */
+#rt_header nav #navigation .navbar.navbar-default
+{
+  padding: 10px;
+  background-color: #FFFFFF;
+  transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
+  -webkit-transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
+  -moz-transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
+  -o-transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
+  -ms-transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
+  -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.52);
+  -o-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.52);
+  -ms-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.52);
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.52);
+  
+}
 #rt_header nav #navigation .navbar.navbar-default.reveal-menu-home.sticky-nav {
   padding: 10px;
   background-color: #FFFFFF;
@@ -848,11 +864,11 @@ input[type="submit"] {
   position: relative;
   height: 800px;
   width: 100%;
-  background-image: url('../images/background.png');
+  background-image: url('../images/back11.png');
+  /* background-color: #f4f1f7; */
 
   
-  /* background: #2371ae; */
-  /* background: linear-gradient(to right, #2371ae 0%, #bb47d4 100%); */
+   /* background: linear-gradient(to right, #2371ae 0%, #bb47d4 100%); */
  
 
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2371ae', endColorstr='#bb47d4', GradientType=1); }
@@ -885,7 +901,8 @@ input[type="submit"] {
 
         margin-top: 220px; } }
     #rt_banner .banner_caption_text h1 {
-      color: #371e47;
+      /* color: #371e47; */
+      color: #FFFFFF;
       /* font-family: WonderUnitSans-Extrabold; */
       font-size: 54px;
       line-height: 70px;
@@ -894,22 +911,23 @@ input[type="submit"] {
       position: relative; }
       @media only screen and (max-width: 640px) {
         #rt_banner .banner_caption_text h1 {
-          font-size: 32px;
+          font-size: 35px;
           line-height: 40px;
           margin-bottom: 55px;
           position: relative; } }
       @media only screen and (max-width: 480px) {
         #rt_banner .banner_caption_text h1 {
-          font-size: 26px; } }
+          font-size: 28px; } }
     #rt_banner .banner_caption_text p {
-      color: #371e47;
+      /* color: #371e47; */
+      color: #FFFFFF;
       font-family: 'Open Sans', sans-serif;
       font-weight: 400;
-      font-size: 16px;
+      font-size: 20px;
       margin-bottom: 55px; }
       @media only screen and (max-width: 640px) {
         #rt_banner .banner_caption_text p {
-          font-size: 14px;
+          font-size: 16px;
           line-height: 22px;
           margin-bottom: 30px; } }
     #rt_banner .banner_caption_text .btn-app-store {
@@ -970,15 +988,16 @@ input[type="submit"] {
       #rt_banner .banner_caption_text .google_play i {
         font-size: 35px; }
   #rt_banner .banner_caption_img {
-    margin-top: 200px;
+    margin-top: -50px;
     text-align:center;
-  margin-right: 60px; }
+  margin-right: 100px; }
     @media only screen and (max-width: 991px) {
       #rt_banner .banner_caption_img {
         margin-bottom: 55px;
         margin-top: 15px; } }
     #rt_banner .banner_caption_img img {
-      width: 120%; }
+
+      width: 200%; }
       @media only screen and (max-width: 480px) {
         #rt_banner .banner_caption_img img {
           width: 120%; 
