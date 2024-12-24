@@ -651,18 +651,7 @@ input[type="submit"] {
 /* ====================== */
 #rt_header nav #navigation .navbar.navbar-default
 {
-  padding: 10px;
-  background-color: #FFFFFF;
-  transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
-  -webkit-transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
-  -moz-transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
-  -o-transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
-  -ms-transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
-  -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.52);
-  -moz-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.52);
-  -o-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.52);
-  -ms-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.52);
-  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.52);
+  /* background-color: #FFFFFF; */
   
 }
 #rt_header nav #navigation .navbar.navbar-default.reveal-menu-home.sticky-nav {
@@ -864,7 +853,7 @@ input[type="submit"] {
   position: relative;
   height: 800px;
   width: 100%;
-  background-image: url('../images/back11.png');
+  background-image: url('../images/back.jpeg');
   /* background-color: #f4f1f7; */
 
   
@@ -1595,6 +1584,18 @@ input[type="submit"] {
 #rt_team {
   padding: 120px 0;
   position: relative; }
+  #rt_team .owl-carousel {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+  }
+  
+  #rt_team .profile-card {
+    margin: 10px; 
+    text-align: center; 
+  }
+  
+  
   #rt_team .owl-dots {
     text-align: center;
     margin-top: 30px; }

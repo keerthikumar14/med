@@ -270,11 +270,11 @@
         }
 
         .popup-content {
-            font-family: "Roboto", sans-serif;
-  font-weight: 400;
+            font-family: sans-serif;
+  font-weight: 100;
             background-color: #fff;
             padding: 20px;
-            border: 1px solid #ccc;
+            /* border: 1px solid #ccc; */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
             max-width: 600px;
             max-height: 80vh;
@@ -512,7 +512,6 @@
                                     <!-- <li><a href="index.html#rt_pricing">Pricing</a></li> -->
                                     <!-- <li><a href="index.html#rt_blog">Blog</a></li> -->
                                     <li><a href="index.html#rt_contact" style="color:#371e47; font-weight: bold;">Contact Us</a></li>
-                                    <!-- <li><a id="openPopup">Open Form</a></li> -->
                                 </ul>
                             </div>
                         </div> 
@@ -887,32 +886,32 @@
         <h2 style="margin-top: -13px; color: #371e47;">Hospital Form</h2>
         <form id="contactform" method="post">
             <div class="form-row">
-                <label for="hospitalName">Hospital Name:</label>
+                <label style="font-size: 20px;" for="hospitalName">Hospital Name:</label>
                 <input type="text" id="hospitalName" name="hospitalName">
             </div>
 
             <div class="form-row">
-                <label for="personName">Person's Name:</label>
+                <label style="font-size: 20px;" for="personName">Person's Name:</label>
                 <input type="text" id="personName" name="personName">
             </div>
 
             <div class="form-row">
-                <label for="mobileNumber">Mobile Number:</label>
+                <label style="font-size: 20px;" for="mobileNumber">Mobile Number:</label>
                 <input type="tel" id="mobileNumber" name="mobileNumber">
             </div>
 
             <div class="form-row">
-                <label for="email">Email ID:</label>
+                <label style="font-size: 20px;" for="email">Email ID:</label>
                 <input type="email" id="email" name="email">
             </div>
 
             <div class="form-row">
-                <label for="designation">Designation:</label>
+                <label style="font-size: 20px;" for="designation">Designation:</label>
                 <input type="text" id="designation" name="designation">
             </div>
 
             <div class="form-row">
-                <label for="dropdown">Select an Option:</label>
+                <label style="font-size: 20px;" for="dropdown">Select an Option:</label>
                 <select id="dropdown" name="dropdown" onchange="handleDropdownChange(this)">
                     <option value="" disabled selected>Select an option</option>
                     <option value="Darwin 180">Darwin 180</option>
